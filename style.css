@@ -1,0 +1,115 @@
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white
+}
+ 
+ 
+.nav {
+    overflow: hidden;
+    background-color: #968484;
+}
+ 
+.nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+.content{
+	background-color:  #EBEBEB;
+	float: left;
+	height: 40%;
+    width: 50%;	
+    padding: 10px;
+    margin-top: 10px;  
+}
+ 
+.sidebar {
+    float: left;
+    height: 55%;
+	width: 50%;	
+    background-color: white;
+    padding-left: 10px;
+}
+ 
+.img {
+    background-color: #aaa;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+ 
+
+.wrapper {
+    float: left;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    height: 30%;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    background-color: #EBEBEB;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  /*bagian sidebar*/
+ .badan .sidebar1{
+	background: ;
+	float: right;	
+	width: 25%;
+    height: 100%;
+    margin-top: 10px; 
+}
+ 
+/*akhir sidebar*/
+
+.badan .content1{
+	background: white;
+	float: left;
+	height: 100%;
+    width: 75%;	
+    margin-top: 10px;   
+}
+
+.badan .sidebar1 .img{
+    background-color: #968484
+}
+
+.footer{
+    background-color: #968484;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-top: solid 4px;
+}
+
+.sidebar2{
+	float: left;
+    height: 55%;
+	width: 50%;	
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;  
+}
+
